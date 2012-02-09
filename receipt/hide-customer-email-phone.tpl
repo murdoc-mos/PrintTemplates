@@ -541,7 +541,7 @@ td.amount { white-space: nowrap; }
 				</tr>
 			{% endfor %}
 		</table>
-		{% if Customer.MetaData.workordersTota > 0 %}
+		{% if Customer.MetaData.workordersTotal > 0 %}
 			<table class="workorders totals">
 				<tr>
 					<td width=”100%”>Subtotal</td>
